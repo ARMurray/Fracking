@@ -1,0 +1,6 @@
+Start Time: 2019-05-09 16:29:19
+End Time: 2019-05-09 16:29:26
+Available Cores: 72
+Cores used: 62
+Time: 6.92440032958984
+Iterations: 10
