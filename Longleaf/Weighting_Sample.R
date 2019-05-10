@@ -2,13 +2,13 @@ library(sf)
 library(ggplot2)
 library(doParallel)
 
-#The goal here is to iterate through the well pads and determine
-#the areas of blocks that are at risk of contamination and to weight
-#estimated well use into those areas so we can come up with a total
-#number of wells at risk from each well pad
+# The goal here is to iterate through the well pads and determine
+# the areas of blocks that are at risk of contamination and to weight
+# estimated well use into those areas so we can come up with a total
+# number of wells at risk from each well pad
 
-#First, lets import the well pad and the block data and then project them to
-#a projection that's good for our working area.
+# First, lets import the well pad and the block data and then project them to
+# a projection that's good for our working area.
 pads <- st_read("/pine/scr/a/r/armurray/files/FracFocusSites.shp")
 blocks <- st_read("/pine/scr/a/r/armurray/files/USBlocks_1km_FracFocus_NAD83.shp")
 # Project data
